@@ -51,7 +51,7 @@ Production:
 npm start
 ```
 
-Server runs on 👉 `http://localhost:3000`
+Server runs on 👉 `https://dividable-crowncapping-willetta.ngrok-free.dev`
 
 ---
 
@@ -68,7 +68,7 @@ Send answers directly in the request body.
 **Request:**
 
 ```bash
-curl -X POST http://localhost:3000/profile \
+curl -X POST https://dividable-crowncapping-willetta.ngrok-free.dev/profile \
   -H "Content-Type: application/json" \
   -d '{
     "age": 42,
@@ -110,7 +110,7 @@ Form fields like `"Age: 42"` / `"Smoker: yes"` / `"Exercise: rarely"` / `"Diet: 
 **Request (using curl):**
 
 ```bash
-curl -X POST http://localhost:8000/profile \
+curl -X POST https://dividable-crowncapping-willetta.ngrok-free.dev/profile \
   -F "file=@./sample-form.png"
 ```
 
@@ -137,6 +137,12 @@ curl -X POST http://localhost:8000/profile \
 ```
 
 ---
+
+Sample Images
+<img width="1536" height="1024" alt="SampleImage" src="https://github.com/user-attachments/assets/86872969-639a-4e16-a1ab-5172569dbfd4" />
+<img width="1163" height="415" alt="Screenshot 2025-10-04 at 11 09 33 PM" src="https://github.com/user-attachments/assets/79831d8a-8825-4d14-aa1f-c9d3267d03d6" />
+<img width="1346" height="873" alt="Screenshot 2025-10-04 at 11 10 03 PM" src="https://github.com/user-attachments/assets/d75faeb5-6d22-44b8-afa5-26185dc23af3" />
+
 
 ## 🛠 Tech Stack
 
